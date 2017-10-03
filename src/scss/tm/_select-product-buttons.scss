@@ -1,0 +1,21 @@
+@import '../colors';
+@import '../variables';
+
+.tm-spb {
+  margin-bottom: 20px;
+
+  &__btn {
+    background-color: $color-teal;
+    border: 0;
+    border-radius: $border-radius;
+    color: $color-white;
+    cursor: pointer;
+    font-size: $font-size-lg;
+    margin: 0 5px;
+    padding: 5px 10px;
+  }
+
+  &__title {
+    font-size: $font-size-sm;
+  }
+}
