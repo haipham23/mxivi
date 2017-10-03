@@ -1,9 +1,9 @@
-# React Redux Boilerplate
+# MXIVI
 
-[![Build Status](https://travis-ci.org/haipham23/react-redux-boilerplate.svg?branch=master)](https://travis-ci.org/haipham23/react-redux-boilerplate)
-[![Coverage Status](https://coveralls.io/repos/github/haipham23/react-redux-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/haipham23/react-redux-boilerplate?branch=master)
-[![Code Climate](https://codeclimate.com/github/haipham23/react-redux-boilerplate/badges/gpa.svg)](https://codeclimate.com/github/haipham23/react-redux-boilerplate)
-[![Issue Count](https://codeclimate.com/github/haipham23/react-redux-boilerplate/badges/issue_count.svg)](https://codeclimate.com/github/haipham23/react-redux-boilerplate)
+[![Build Status](https://travis-ci.org/haipham23/mxivi.svg?branch=master)](https://travis-ci.org/haipham23/mxivi)
+[![Coverage Status](https://coveralls.io/repos/github/haipham23/mxivi/badge.svg?branch=master)](https://coveralls.io/github/haipham23/mxivi?branch=master)
+[![Code Climate](https://codeclimate.com/github/haipham23/mxivi/badges/gpa.svg)](https://codeclimate.com/github/haipham23/mxivi)
+[![Issue Count](https://codeclimate.com/github/haipham23/mxivi/badges/issue_count.svg)](https://codeclimate.com/github/haipham23/mxivi)
 
 ### Tech stack
 - React
