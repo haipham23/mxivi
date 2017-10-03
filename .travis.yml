@@ -1,13 +1,18 @@
-
 language: node_js
 sudo: false
 node_js:
-  - '7'
+- '7'
 install:
-  - npm install
+- npm install
 script:
-  - npm run lint
-  - npm run cover
+- npm run lint
+- npm run cover
+- npm run build
 branches:
   only:
   - master
+deploy:
+  provider: firebase
+  token:
+    secure: vCvu/BSNFrbu4XO7OaQcAZyEwnf24h9w1t1ATdexajhyMnr+wHVR+B9hdUotplMl6maCvFE7f6dw/X7SrdozJVc/lwoeRkRsuMrJ36tlUG6DZ817HO3iVTdS+CGisDgFJqDG7LVyvsPknG3XwQ7nzNWLbqcHzCI02zCfyebTnoFvcxM4LaNFe4RuUVmG3BfA6abz+tEPoIxlfA470VR2oLCv+kE82wEG5NglXd4UpeJ9sTtIyBd7DgbEsMhrl3RPEvIkM05FdxHpEZvbnU3mQUw6ZCC6KwNJyybUg6yrQxXZk7Ni4cSydbGTxvebyPNi9853IA6yY6qwPVF1eDel5ZPiCBBM7NtVCF/ASS0wDTPeSq+4EMITWqje9WMv1ZX/tKqFI0NkbnfKoRoeK4cTXK44vsqXmGnYDxFGIf7oEutG8xD2VvXlGeG6WodDeyg7Amx02cTBkMPQXOKhLz+eq2VcLUpPMjB1YSlBfRnn4ti3gj5fktrDDXIhWxh+rpVarTMinHOsx+Y3L4znVitaCySWRCflFdjolw13sTqeVR39HRRgE2YAa6Y6dcKR6wYJwRqw6T/U+Tkuhvn/zZK+fKTwIk0VhV7l/uR/mDqlMbBInMkDaxDQ9g+BCEaWKUtpu2aT3HdGa3NPnejzD3bqI7/Cd92xFuVtkPQDwOoLcok=
+  message: "Deploy to firebase"
