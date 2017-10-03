@@ -25,7 +25,7 @@ class SelectedProducts extends PureComponent {
             className="tm-sp__about-btn"
             to="/about"
           >
-            About this project
+            About MXIVI
           </Link>
         </div>
       </div>
